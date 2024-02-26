@@ -1,0 +1,13 @@
+.main-component {
+    color: white;
+    margin-left: 30px;
+    background-image: url(../images/gray-react-logo.png);
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    background-size: 200px 200px;
+}
+
+li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
+}

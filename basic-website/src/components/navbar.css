@@ -1,0 +1,28 @@
+
+.navbar-icon{
+    width: 50px;
+    color: black;
+    margin-right: px;
+    margin-left: 26px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background: #21222A;
+    padding: 40 30;
+    height: 90px;
+}
+
+nav > h3 {
+    padding: 20 20;
+    color: #61DAFB;
+    margin-right: auto;
+}
+
+nav > h4 {
+    padding: 20 20;
+    text-align: right;
+    margin-right: 10px;
+    color: #DEEBF8;
+}
