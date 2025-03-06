@@ -1,17 +1,14 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Card from './components/Card';
+import App from './App.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Card />
-    {/* <LinkButtons /> */}
-    {/* <About /> */}
-    {/* <Footer /> */}
+    <App />
   </React.StrictMode>
 );
 

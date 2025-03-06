@@ -1,11 +1,12 @@
 .card {
-    background-color: #23252C;
+    background-color: #242424;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
-    padding: 20px;
+    padding: 1.2%;
     display: inline-block;
     align-items: center;
+    margin: 0.5% 0.5% 0.5% 0.5%;
 }
 
 .wrapper-card{
@@ -13,6 +14,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-bottom: 20px;
     width: 240px;
+    border-radius: 6% 6% 0px 0px;
 }
 
 .photo {
@@ -45,34 +47,49 @@
     padding: 1px 15px;
     text-align: center;
     margin-left: 10px;
-    margin-right: 50px;
-    border-radius: 4px;
+    margin-right: 1px;
+    border-radius: 40px;
+    max-width: 40%;
 }
 
 .linkedin-button {
     cursor: pointer;
     font-size: 14px;
-    padding: 1px 9px;
+    padding: 1px 5px;
     text-align: center;
-    margin-left: 20px;
-    border-radius: 4px;
+    margin-left: 30px;
+    border-radius: 40px;
     align-self: right;
     border-color: #5093E2;
     background-color: #5093E2;
-}
-
-.info > h6 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
+    max-width: 40%;
 }
 
 .info > p {
+    margin-top: 0;
+    display: inline-block;
+    font-size: 9px;
+}
+
+.about {
+    color: #F5F5F5;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 150%;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.email-button > img{
+    max-width: 20%;
+}
+
+.linkedin-button > img {
+    max-width: 10%;
+}
+
+.info {
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    padding: 10px;
 }

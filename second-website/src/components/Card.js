@@ -1,24 +1,29 @@
 import './Card.css';
-import photo from "../images/omkar.jpg";
+import mail from  "../images/mail.png";
+import linkedin from "../images/linkedin.png";
 
-function Card() {
+function Card(props) {
+  console.log(props);
   return (
     <div className="card">
       <div className="wrapper-card">
         <img 
-            src = {photo}
+            src = {props.img}
             alt='profile-pic'
             className='photo'
         />
         <div className='name'> 
-            <h4>Omkar Jadhav</h4>
+            <h4>{props.name}</h4>
             <p>Full Stack developer</p>
-        <button className='email-button'> Email </button>
-        <button className='linkedin-button'> LinkedIn </button>
+        <button className='email-button'> <img src={mail} /> Email </button>
+        <button className='linkedin-button'> <img src={linkedin} /> LinkedIn </button>
         </div>
         <div className="info">
-          <h6>About</h6>
-          <p>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+          <p className="about">About</p> <br />
+          <p>{props.about}</p>
+          <br />
+          <p className="about">Interests</p> <br />
+          <p>{props.interests}</p>
         </div>
       </div>
     </div>
